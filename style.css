@@ -69,9 +69,3 @@ a{
 .allContainer{
     margin: 0 auto;
 }
-
-@media screen and (max-width: 700px){
-    .allContainer, body{
-        background-color: black;
-    }
-}
