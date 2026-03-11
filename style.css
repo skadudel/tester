@@ -58,7 +58,7 @@ a{
 
 }
 
-.box1, .box2 {
+.box1, .box2, .box3 {
     width:29vw;
 }
 
@@ -68,4 +68,19 @@ a{
 
 .allContainer{
     margin: 0 auto;
+}
+
+.flex-container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box3{
+    border: 3px solid black;
+    color: azure;
+    padding: 4px;
+    margin: 5px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
